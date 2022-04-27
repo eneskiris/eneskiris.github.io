@@ -16,19 +16,19 @@
 }
 .subheader {
     font-family: "Roboto Mono", monospace;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: -0.05em;
     color: rgb(137, 137, 137) !important;
    
 }
 .odev.col-sm-3 {
-    margin-right: 0px;
-    padding: 36px 54px;
+    box-sizing: border-box;
     box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
     background-color: rgb(255, 255, 255);
     color: #000000;
     border-radius: 8px;
+    margin-top: 30px;
+    margin-right: auto;
+    padding: 36px 54px;
+    
     
 }
 .UserColum.row {
@@ -50,8 +50,6 @@ h3 {
 body {
     background: #fafafa;
 }
-
-
 
 
 
